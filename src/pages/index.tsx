@@ -1,6 +1,11 @@
 import Head from 'next/head'
+import { type } from 'os'
 
-export default function Home() {
+type Props = {
+  title: string
+}
+
+export default function Home({ title = "Homepage - Client Boilerplate" } : Props) {
   return (
     <div>
       <Head>
@@ -10,7 +15,7 @@ export default function Home() {
 
       <main>
         <h1>
-          Homepage - Client Boilerplate
+          {title}
         </h1>
       </main>
     </div>
