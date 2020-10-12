@@ -4,7 +4,9 @@ type Props = {
   title: string
 }
 
-export default function Home({ title = "Homepage - Client Boilerplate" } : Props) {
+export default function Home({
+  title = 'Homepage - Client Boilerplate'
+}: Props) {
   return (
     <div>
       <Head>
@@ -13,9 +15,7 @@ export default function Home({ title = "Homepage - Client Boilerplate" } : Props
       </Head>
 
       <main>
-        <h1>
-          {title}
-        </h1>
+        <h1>{title}</h1>
       </main>
     </div>
   )
