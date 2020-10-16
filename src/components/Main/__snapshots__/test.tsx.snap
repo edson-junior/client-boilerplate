@@ -3,7 +3,7 @@
 exports[`<Main /> should render the heading 1`] = `
 <main>
   <h1>
-    React Avançado
+    Homepage - Client Boilerplate
   </h1>
 </main>
 `
