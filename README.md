@@ -1,9 +1,3 @@
-## Getting Started
+## Client Boilerplate
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
+A boilerplate for Next.js Projects
