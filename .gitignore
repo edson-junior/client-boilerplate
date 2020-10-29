@@ -33,9 +33,6 @@ yarn-error.log*
 # vercel
 .vercel
 
-# vscode
-.vscode
-
 # storybook
 storybook-static
 
